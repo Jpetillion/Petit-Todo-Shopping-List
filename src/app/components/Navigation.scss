@@ -1,0 +1,64 @@
+.bbjinx {
+    font-family: monospace;
+    font-size: 1.5rem;
+    background-color: hsl(279, 54%, 34%);
+    color: white;
+}
+
+.bubu {
+    font-family: monospace;
+    font-size: 1.5rem;
+    background-color: hsl(300, 80%, 47%);
+    color: white;
+}
+
+.tonton {
+    font-family: monospace;
+    font-size: 1.5rem;
+    background-color: hsl(150, 81%, 48%);
+    color: white;
+}
+
+.gustafa {
+    font-family: monospace;
+    font-size: 1.5rem;
+    background-color: hsl(77, 79%, 48%);
+    color: white;
+}
+
+.userinfo-avatar {
+    display: flex;
+    flex-direction: column;
+}
+
+.bbjinx, 
+.tonton,
+.bubu,
+.gustafa {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+
+.userinfo-avatar > img {
+    width: 7rem;
+    height: 7rem;
+}
+
+button {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    height: 5rem;
+}
